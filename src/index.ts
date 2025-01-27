@@ -25,7 +25,7 @@ app.get("/gen", (req: Request, res: Response) => {
     return;
   }
 
-  let tags = `${artist} ${title},${artist} ${title} lyrics,${title} lyrics,${title} ${artist} lyrics,lyrics ${title},lyrics ${artist} ${title},${artist} lyrics ${title},${title} lyrics ${artist},lyrics ${title} ${artist},${artist} lyrics,lyrics ${artist},${title},${artist}`;
+  let tags = `${artist} ${title},${artist} ${title} lyrics,${title} lyrics,${title} ${artist} lyrics,lyrics ${title},lyrics ${artist} ${title},${artist} lyrics ${title},${title} lyrics ${artist},${title} lyric video,${artist} ${title} lyric video,lyrics ${title} ${artist},${artist} lyrics,lyrics ${artist},${title},${artist}`;
 
   if (tiktok === "true") {
     tags += `${artist} ${title},${title} tiktok,${artist} tiktok,tiktok`;
